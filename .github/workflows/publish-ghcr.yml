@@ -10,7 +10,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: caddy-naive-cloudflare
+  IMAGE_NAME: caddy-cf-naive
 
 jobs:
   build-and-push:
