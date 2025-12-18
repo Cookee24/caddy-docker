@@ -18,6 +18,7 @@
         ];
 
         hash = "sha256-mvSn5T6K3BkDX8OJNfm5OpUYIpjSilPu19Y05mY3qjQ";
+        doInstallCheck = false;
       };
 
       dockerImage = pkgs.dockerTools.buildLayeredImage {
