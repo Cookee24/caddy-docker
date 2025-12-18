@@ -17,7 +17,7 @@
           "github.com/caddyserver/forwardproxy=github.com/klzgrad/forwardproxy@naive"
         ];
 
-        hash = "sha256-0000000000000000000000000000000000000000000";
+        hash = "sha256-mvSn5T6K3BkDX8OJNfm5OpUYIpjSilPu19Y05mY3qjQ";
       };
 
       dockerImage = pkgs.dockerTools.buildLayeredImage {
