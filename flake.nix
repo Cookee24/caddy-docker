@@ -13,8 +13,8 @@
 
       caddyWithPlugins = pkgs.caddy.withPlugins {
         plugins = [
-          "github.com/caddy-dns/cloudflare@0.2.2"
-          "github.com/caddyserver/forwardproxy=github.com/klzgrad/forwardproxy@naive"
+          "github.com/caddy-dns/cloudflare@v0.2.2"
+          "github.com/caddyserver/forwardproxy=github.com/klzgrad/forwardproxy@v2.10.0-naive"
         ];
 
         hash = "sha256-0000000000000000000000000000000000000000000";
